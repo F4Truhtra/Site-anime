@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title> Mangá store</title>
+</head>
+<body>
+
+    <!-- Cabeçalho e Navegação -->
+    <header>
+        <h1>Depressive Mangá Store</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Início</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="contatos.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Produtos -->
+    <main id="produtos">
+        <h2>Nossos mangás depressives</h2>
+        <section class="produtos-lista">
+
+            <!-- Produto 1 -->
+            <div class="produto-item">
+                <img src="https://upload.wikimedia.org/wikipedia/pt/3/33/Shigatsu_wa_Kimi_no_Uso_mang%C3%A1.jpg" alt="Shigatsu wa Kimi no Uso">
+                <h3>Shigatsu wa Kimi no Uso</h3>
+                <p>R$ 39,99 ou R$ 37,99 via Pix</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+
+            <!-- Produto 2 -->
+            <div class="produto-item">
+                <img src="https://m.media-amazon.com/images/I/51EQ5jMPsHL._AC_UF1000,1000_QL80_.jpg" alt="Oyasumi Punpun">
+                <h3>Oyasumi Punpun</h3>
+                <p>R$ 60,90 ou R$ 58,90 via Pix</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+
+            <!-- Produto 3 -->
+            <div class="produto-item">
+                <img src="https://m.media-amazon.com/images/I/71dWr8YThPL._AC_UF1000,1000_QL80_.jpg" alt="Si Juujika no Rokunin">
+                <h3>Si Juujika no Rokunin</h3>
+                <p>R$ 33,90 ou R$32,00 via Pix</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+            
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Depressive Mangá Store. Todos os direitos reservados.</p>
+        <p><a href="contato.html">Fale Conosco</a> | <a href="politica-privacidade.html">Política de Privacidade</a></p>
+    </footer>
+
+</body>
+</html>
