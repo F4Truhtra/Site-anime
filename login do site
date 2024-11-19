@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/CSS/stylecad.css">
+</head>
+<body>
+    <div class="forms">
+        <h1><img src="/IMG/C (3).png" height="100"></h1>
+        <form action="home.html" method="post"> <!-- Redireciona para home.html -->
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+            
+            <div class="bt">
+                <button type="submit" href="/home.html">Entrar</button>
+                <button type="reset" id="cancelar">Cancelar</button>
+            </div> 
+        </form>
+       
+        <div class="bt">
+            <p>Não possui cadastro?</p><a href="cadastro.html"> Fazer cadastro</a>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
